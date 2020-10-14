@@ -5,7 +5,7 @@ function PageContent(props) {
     const {isDarkMode}=useContext(ThemeContext);
 
     const styles={
-        backgroundColor:isDarkMode ? "black" : "white",
+        backgroundColor:isDarkMode ? "black" : "azure",
         height: "100vh",
         width: "100vw"
     }
